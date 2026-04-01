@@ -2,7 +2,7 @@
 
 int main()
 {
-    in maximum_value, num;
+    int maximum_value, num;
 
     cin >> maximum_value;
     for (int i = 0; i < 9; ++i) {
@@ -12,7 +12,7 @@ int main()
         }
     }
 
-    cout << "Maximum value is: " << maximum_value << endl;
+    cout << "Maximum value: " << maximum_value << endl;
     
     return 0;
 }
